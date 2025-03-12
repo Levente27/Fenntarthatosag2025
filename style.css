@@ -1,31 +1,8 @@
-
-.fokeret{
+nav{
     display: flex;
-    
-    
-   
 
 }
 
-.alkeret{
-    display: flex;
-    width: 75%;
-    
- 
-}
-.hatter{
-    background-image: url(Fenntarthato/hatter.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    
-
-    
-   
-}
-
-aside{
+nav article{
     width: 25%;
-    padding-bottom: 100%;
-    background-repeat: no-repeat;
-    background-image: url(Fenntarthato/ht8.jpg);
 }
