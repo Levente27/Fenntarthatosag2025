@@ -1,8 +1,14 @@
 
 .fokeret{
     display: flex;
+
 }
 
 .alkeret{
     display: flex;
+    width: 75%;
+}
+
+.fokeret aside{
+    width: 25%;
 }
