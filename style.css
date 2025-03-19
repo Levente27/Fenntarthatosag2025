@@ -29,11 +29,12 @@ button{
 
 .valtkepek{
     border-radius: 150px 100px 150px 100px;
-    box-shadow: 3px 2px 5px 2px skyblue;
-    height: 400px;
+    box-shadow: 3px 2px 5px 2px rgb(110, 218, 110);
+    max-width: 70%;
 }
 
 h1 , h2{
+    color:rgb(80, 161, 80) ;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
@@ -56,22 +57,49 @@ button{
 
 
 button:hover{
-    background-color: burlywood;
+    background-color: rgb(137, 204, 137);
     font-style: italic;
 }
 
 .szovegek{
     display: flex;
+    justify-content: space-around;
 
     
 }
 
 .szovegek article{
     width: 50%;
+
 }
 
-@media only screen and (max-width: 2000px) {
-    .szekcio article{
+@media screen and (max-width: 600px) {
+    .szovegek article{
         width: 100%;
     }
+
+    .szovegek{
+       flex-wrap: wrap;
+        flex-flow: column;
+    }
+
+    .szekcio article{
+        width: 100%;
+        margin: auto;
+    }
+
+    .szekcio{
+       flex-wrap: wrap;
+        flex-flow: column;
+    }
+
   }
+
+
+
+form{
+    text-align: center;
+    color: rgb(80, 161, 80);
+    border-radius: 30px;
+    
+}
