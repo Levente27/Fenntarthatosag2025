@@ -2,7 +2,7 @@ nav{
     display: flex;
     background-color: black;
     padding: 3%;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 nav article{
@@ -112,4 +112,16 @@ input{
     border-radius: 10px;
     border: 2px solid green;
 
+}
+
+footer{
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 2%;
+    background-color: black;
+    padding: 1%;
+}
+
+
+.mas{
+    color: white;
 }
