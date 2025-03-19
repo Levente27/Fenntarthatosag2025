@@ -15,3 +15,12 @@ setInterval(() => {
     }
     
 }, 3000);
+
+
+
+function szamol()
+{
+    let adomany = parseInt(document.kerdoiv.adomany.value)
+
+    document.getElementById("vegsoszoveg").innerHTML = "Köszönjük " + adomany + " Ft támogatását!"
+}

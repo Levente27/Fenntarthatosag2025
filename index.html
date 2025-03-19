@@ -21,7 +21,7 @@
 
         <section class="szekcio">
             <article>
-                <h1>Élővilág</h1>
+                <h2>Élővilág</h2>
                 <p>A fenntarthatóság szempontjából az élővilág megőrzése kulcsfontosságú, mivel az emberi <br> tevékenységek, például az iparosodás, mezőgazdaság és városiasodás jelentős hatással vannak a természetre.</p>
             </article>
             <article id="valtkep">
@@ -42,7 +42,6 @@
         
 
         <section>
-
             <form id="kerdoiv" name="kerdoiv">
 
                 <label for="nev">Név:</label>
@@ -61,16 +60,23 @@
                 <Label>Adományok:</Label>
 
                 <label for="adomany1">5000 Ft</label>
-                <input type="radio" name="adomany" id="adomany1">
+                <input type="radio" name="adomany" id="adomany1" value="5000">
                 <label for="adomany1">10000 Ft</label>
-                <input type="radio" name="adomany" id="adomany2">
+                <input type="radio" name="adomany" id="adomany2" value="10000">
                 <label for="adomany1">20000 Ft</label>
-                <input type="radio" name="adomany" id="adomany3">
+                <input type="radio" name="adomany" id="adomany3" value="20000">
+
+                <br><br>
+                <input type="button" value="Küldés" onclick="szamol()">
+                <br><br>
+                <span id="vegsoszoveg"></span>
             </form>
-
-
         </section>
 
+
+        <footer>
+            <p>Készítette: Nagy Levente / Borza Barna</p>
+        </footer>
 
     </main>
 
