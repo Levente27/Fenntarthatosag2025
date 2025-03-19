@@ -26,9 +26,11 @@ button{
     width: 50%;
 }
 
-.to{
+
+.valtkepek{
     border-radius: 150px 100px 150px 100px;
     box-shadow: 3px 2px 5px 2px skyblue;
+    height: 400px;
 }
 
 h1{
@@ -43,3 +45,18 @@ p{
     font-size: 20px;
     font-style: italic;
 }
+
+
+
+button{
+    padding: 3%;
+    font-size: 24px;
+}
+
+
+
+button:hover{
+    background-color: burlywood;
+    font-style: italic;
+}
+
