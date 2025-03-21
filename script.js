@@ -30,7 +30,11 @@ for (let i = 0; i < felsorolasszoveg.length; i++) {
     
 }
 
-
+function range()
+{
+    let onnyom = (document.getElementById("oklabnyom").value)
+    document.getElementById("szovegok").innerHTML = onnyom + " ha"
+}
 
 
 
