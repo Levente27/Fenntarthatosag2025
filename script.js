@@ -21,9 +21,16 @@ setInterval(() => {
 function szamol()
 {
 
-    let adomany = parseInt(document.kerdoiv.adomany.value)
+    let kor = parseInt(document.getElementById("szul").value)
+    if (kor < 12)
+    {
+        alert("12 éven aluliaknak nem érvényes a jelentkezés!")
+    }
 
-    document.getElementById("vegsoszoveg").innerHTML = "Köszönjük " + adomany + " Ft támogatását!"
+    else{
+        let adomany = parseInt(document.kerdoiv.adomany.value)
+        document.getElementById("vegsoszoveg").innerHTML = "Köszönjük " + adomany + " Ft támogatását!"
+    }
 
     return false
 }
