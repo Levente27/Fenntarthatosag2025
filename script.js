@@ -2,6 +2,8 @@
 const kepek = ["1.jpg","2.jpg","3.jpg","to.jpg"]
 const szoveg = ["Hegység","Erdő", "Tenger", "Tó"]
 
+const felsorolasszoveg = ["megújuló energiaforrások","bioetanol","biodiesel","biomassza","biogáz","életciklus-értékelés"]
+
 let i = 0
 let kep = document.getElementById("valtkep")
 setInterval(() => {
@@ -15,6 +17,22 @@ setInterval(() => {
     }
     
 }, 3000);
+
+
+
+
+
+
+let betesz = document.getElementById("felsorolas")
+for (let i = 0; i < felsorolasszoveg.length; i++) {
+    
+    betesz.innerHTML += `<li>${felsorolasszoveg[i]}</li>`
+    
+}
+
+
+
+
 
 
 
