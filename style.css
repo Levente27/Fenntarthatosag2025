@@ -57,9 +57,10 @@ button{
     padding: 3%;
     font-size: 24px;
 }
-.fentart{
-    float: left;
-    width: 60%;
+.fenttartkor{
+    display: block;
+    width: 30%;
+   margin: auto;
 }
 
 
@@ -140,3 +141,29 @@ footer{
 .mas{
     color: white;
 }
+
+li{
+    list-style-image: url(Fenntarthato/level.png);
+    padding: 6px;
+    
+}
+div{
+    text-align: center;
+    
+}
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+#oklabnyom{
+    display: block;
+    margin: auto;
+}
+
+span{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
