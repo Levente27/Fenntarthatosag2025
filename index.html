@@ -42,19 +42,19 @@
         
 
         <section>
-            <form id="kerdoiv" name="kerdoiv">
+            <form onsubmit="return szamol()" id="kerdoiv" name="kerdoiv">
 
                 <label for="nev">Név:</label>
-                <input type="text" name="nev" id="nev" placeholder="Nagy János">
+                <input type="text" name="nev" id="nev" placeholder="Nagy János" required>
                 <br><br>
-                <label for="szul">Sületési év / hónap / nap:</label>
-                <input type="date" name="szul" id="szul">
+                <label for="szul">Életkor:</label>
+                <input type="number" name="szul" id="szul" required>
                 <br><br>
                 <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" placeholder="kovacsjanos@gmail.com">
+                <input type="email" name="email" id="email" placeholder="kovacsjanos@gmail.com" required>
                 <br><br>
                 <label for="telefon">Telefonszám</label>
-                <input type="number" name="telefon" id="telefon" placeholder="+36 30 7523 5687">
+                <input type="number" name="telefon" id="telefon" placeholder="+36 30 7523 5687" required>
                 <br><br>
 
                 <Label>Adományok:</Label>
@@ -67,7 +67,7 @@
                 <input type="radio" name="adomany" id="adomany3" value="20000">
 
                 <br><br>
-                <input type="button" value="Küldés" onclick="szamol()">
+                <input type="submit" value="Küldés">
                 <br><br>
                 <span id="vegsoszoveg"></span>
             </form>
