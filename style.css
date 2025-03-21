@@ -8,6 +8,8 @@ nav{
 nav article{
     width: 25%;
     text-align: center;
+
+
     
 }
 button{
@@ -15,6 +17,8 @@ button{
     background-color: white;
     border-style: none;
     padding: 2%;
+    margin: 10%;
+
 }
 
 .szekcio{
@@ -53,7 +57,10 @@ button{
     padding: 3%;
     font-size: 24px;
 }
-
+.fentart{
+    float: left;
+    width: 60%;
+}
 
 
 button:hover{
@@ -90,6 +97,14 @@ button:hover{
 
     .szekcio{
        flex-wrap: wrap;
+        flex-flow: column;
+    }
+    nav article{
+        width: 100%;
+        
+    }
+    nav{
+        flex-wrap: wrap;
         flex-flow: column;
     }
 
